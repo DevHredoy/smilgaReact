@@ -1,4 +1,9 @@
+import Navbar from './Navbar'
+import {useState} from 'react';
+import { FaBars } from 'react-icons/fa';
+import {links,social} from './data'
+import logo from './logo.svg'
 const App = () => {
-  return <h2>Navbar Starter</h2>;
+  return <main><Navbar/></main>;
 };
 export default App;
